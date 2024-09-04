@@ -1,0 +1,55 @@
+Px[a0,a1,a2,...ai,...] denotes the polynomial martix, where i is the power of X and ai is the power of the primitive element.
+If ai = -Inf, then (alpha)^(ai) = 0 where alpha is primitive element in GF(2^m). And if ai = 0, then (alpha)^(ai) = 1.
+
+-----------Euclidean_algorithm Iteration 1-----------
+r = 1
+s(r) (X) = Px[ 53  58  21  13  29  36  3  35 ]
+t(r) (X) = Px[ 49  9  18  1  58  43  11 ]
+Q(r) (X) = Px[ 59  28 ]
+Lambda (X) = Px[ 0  32 ]
+A(r)(x) = [A11(x) A12(x) ; A21(x) A22(x)]
+A11(r) (X) = Px[ -Inf ]
+A12(r) (X) = Px[ 0 ]
+A21(r) (X) = Px[ 0 ]
+A22(r) (X) = Px[ 59  28 ]
+
+-----------Euclidean_algorithm Iteration 2-----------
+r = 2
+s(r) (X) = Px[ 49  9  18  1  58  43  11 ]
+t(r) (X) = Px[ 48  32  42  24  12  52 ]
+Q(r) (X) = Px[ 61  24 ]
+Lambda (X) = Px[ 0  26  57 ]
+A(r)(x) = [A11(x) A12(x) ; A21(x) A22(x)]
+A11(r) (X) = Px[ 0 ]
+A12(r) (X) = Px[ 59  28 ]
+A21(r) (X) = Px[ 61  24 ]
+A22(r) (X) = Px[ 58  21  52 ]
+
+-----------Euclidean_algorithm Iteration 3-----------
+r = 3
+s(r) (X) = Px[ 48  32  42  24  12  52 ]
+t(r) (X) = Px[ 56  11  38  51  21 ]
+Q(r) (X) = Px[ 27  22 ]
+Lambda (X) = Px[ 0  40  31  8 ]
+A(r)(x) = [A11(x) A12(x) ; A21(x) A22(x)]
+A11(r) (X) = Px[ 61  24 ]
+A12(r) (X) = Px[ 58  21  52 ]
+A21(r) (X) = Px[ 11  54  46 ]
+A22(r) (X) = Px[ 3  43  34  11 ]
+
+-----------Euclidean_algorithm Iteration 4-----------
+r = 4
+s(r) (X) = Px[ 56  11  38  51  21 ]
+t(r) (X) = Px[ 59  2  55  46 ]
+Q(r) (X) = Px[ 17  31 ]
+Lambda (X) = Px[ 0  11  35  3  36 ]
+A(r)(x) = [A11(x) A12(x) ; A21(x) A22(x)]
+A11(r) (X) = Px[ 11  54  46 ]
+A12(r) (X) = Px[ 3  43  34  11 ]
+A21(r) (X) = Px[ 44  47  50  14 ]
+A22(r) (X) = Px[ 6  17  41  9  42 ]
+
+Error location Xi =  X^6  X^10  X^23  X^60
+Error magnitude Yi =  alpha^58  alpha^5  alpha^11  alpha^37
+
+Decoded codeword = (36 4 33 21 56 52 9 13 39 0 -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf )

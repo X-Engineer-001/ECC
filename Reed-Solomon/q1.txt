@@ -1,0 +1,63 @@
+Px[a0,a1,a2,...ai,...] denotes the polynomial martix, where i is the power of X and ai is the power of the primitive element.
+If ai = -Inf, then (alpha)^(ai) = 0 where alpha is primitive element in GF(2^m). And if ai = 0, then (alpha)^(ai) = 1.
+
+-----------BM_algorithm Iteration 1-----------
+r = 1   dr = 33
+Lambda(X) = Px[ 0  33  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf ]
+B(X) = Px[ 30  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf ]
+T(X) = Px[ 0  33  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf ]
+L = 1
+
+-----------BM_algorithm Iteration 2-----------
+r = 2   dr = 12
+Lambda(X) = Px[ 0  15  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf ]
+B(X) = Px[ -Inf  30  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf ]
+T(X) = Px[ 0  15  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf ]
+L = 1
+
+-----------BM_algorithm Iteration 3-----------
+r = 3   dr = 46
+Lambda(X) = Px[ 0  15  13  -Inf  -Inf  -Inf  -Inf  -Inf ]
+B(X) = Px[ 17  32  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf ]
+T(X) = Px[ 0  15  13  -Inf  -Inf  -Inf  -Inf  -Inf ]
+L = 2
+
+-----------BM_algorithm Iteration 4-----------
+r = 4   dr = 27
+Lambda(X) = Px[ 0  12  43  -Inf  -Inf  -Inf  -Inf  -Inf ]
+B(X) = Px[ -Inf  17  32  -Inf  -Inf  -Inf  -Inf  -Inf ]
+T(X) = Px[ 0  12  43  -Inf  -Inf  -Inf  -Inf  -Inf ]
+L = 2
+
+-----------BM_algorithm Iteration 5-----------
+r = 5   dr = 11
+Lambda(X) = Px[ 0  12  51  43  -Inf  -Inf  -Inf  -Inf ]
+B(X) = Px[ 52  1  32  -Inf  -Inf  -Inf  -Inf  -Inf ]
+T(X) = Px[ 0  12  51  43  -Inf  -Inf  -Inf  -Inf ]
+L = 3
+
+-----------BM_algorithm Iteration 6-----------
+r = 6   dr = 49
+Lambda(X) = Px[ 0  19  56  29  -Inf  -Inf  -Inf  -Inf ]
+B(X) = Px[ -Inf  52  1  32  -Inf  -Inf  -Inf  -Inf ]
+T(X) = Px[ 0  19  56  29  -Inf  -Inf  -Inf  -Inf ]
+L = 3
+
+-----------BM_algorithm Iteration 7-----------
+r = 7   dr = 25
+Lambda(X) = Px[ 0  19  35  58  57  -Inf  -Inf  -Inf ]
+B(X) = Px[ 38  57  31  4  -Inf  -Inf  -Inf  -Inf ]
+T(X) = Px[ 0  19  35  58  57  -Inf  -Inf  -Inf ]
+L = 4
+
+-----------BM_algorithm Iteration 8-----------
+r = 8   dr = 37
+Lambda(X) = Px[ 0  38  55  56  11  -Inf  -Inf  -Inf ]
+B(X) = Px[ -Inf  38  57  31  4  -Inf  -Inf  -Inf ]
+T(X) = Px[ 0  38  55  56  11  -Inf  -Inf  -Inf ]
+L = 4
+
+Error location Xi =  X^2  X^5  X^7  X^60
+Error magnitude Yi =  alpha^11  alpha^5  alpha^1  alpha^37
+
+Decoded codeword = (-Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf -Inf )
